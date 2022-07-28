@@ -11,20 +11,40 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
-  <h1>Useful JS Methods</h1>
-  <div class="section">
+<body id="body">
+  <h1 id="h1" class="tracking-in-expand">Useful JS Methods</h1>
+  <div class="section scale-up-center">
     <h2>forEach</h2>
     <p>forEach() calls a function for each element in an array.</p>
     <button id="for-each-button">Run me</button>
     <div id="vegetable-list"></div>
   </div>
 
-  <div class="section">
+  <div class="section scale-up-center">
     <h2>Arrow Functions</h2>
     <p>Arrow functions are a way to write shorter functions.They help us write cleaner and more efficient code.</p>
     <!-- <button id="for-each-button">Run me</button>
     <div id="arrow-result"></div> -->
+  </div>
+
+  <div class="section scale-up-center">
+    <h2>JS Object Methods</h2>
+    <p>What is a method? A method is an action or a function that gets performed on an object.</p>
+    <label class="switch">
+      <input type="checkbox" id="darkmode-switch">
+      <span class="slider round"></span>
+    </label>
+  </div>
+
+  <div class="section scale-up-center">
+    <h2>Switch statements</h2>
+    <p>We can replace if and else with a switch statement. This is useful for a long list of conditions.</p>
+    <label for="age-input">Enter age:</label>
+    <br>
+    <input type="number" id="age-input" name="age-input" value="">
+    <br>
+    <div id="message"></div>
+    <button id="switch-button">Run me</button>
   </div>
 
   <script src="js/script.js"></script>
